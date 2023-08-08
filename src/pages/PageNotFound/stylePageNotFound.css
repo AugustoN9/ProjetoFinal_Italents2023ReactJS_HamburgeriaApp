@@ -1,0 +1,15 @@
+.titulo{
+    height: 20vh;
+    font-size: 18rem;
+    font-weight: bold;
+    color: green;
+    text-align: end;
+    padding: 0;
+}
+
+.subtitulo{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -5%;
+    padding-top: 0;
+}

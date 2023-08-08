@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16,8,25) ;
+    background-image: url('../../assets/Banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.login_form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+.form_row{
+    margin: 30px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.form_row label{
+    flex-basis: 20%;
+    color: #fff;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.form_row input{
+    flex-basis: 85%;
+    padding: 12px 16px;
+    border:none;
+}
+
+.submit_btn{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 8px 0;
+    background-color: #f41826;
+    border-radius: 5px;
+}
+
